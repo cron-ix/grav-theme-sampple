@@ -48,11 +48,17 @@
             background: $menu-sec-color;
         }
         a[aria-expanded="true"] {
-            background-color: $menu-sec-color;
+            background-color: $menu-sec-color-light;
+        }
+        a[aria-expanded="true"]:hover,a[aria-expanded="true"]:focus, a[aria-expanded="true"]:active {
+            color: $hover-active-font-color;
+            text-decoration: none;
+            background: $menu-sec-color;
         }
         .active-page {
             font-weight: $menu-font-weight-active;
             color: $hover-active-font-color;
+            background: $menu-sec-color;
         }
     }
 }
