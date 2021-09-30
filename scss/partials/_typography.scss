@@ -1,0 +1,98 @@
+.default-header {
+    line-height: 0.8;
+    padding: 0px 25px 10px 0px;
+    border-bottom: 5px solid $font-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-heading;
+    font-weight: 400;
+}
+
+h1 {
+    // @include fluid-type($min_width, $max_width, 24px, 36px); // vela: 35px, 40px
+    font-size: 1.8rem;
+    margin: 35px 0px 10px 0px;
+    position: relative;
+}
+
+h2 {
+    // @include fluid-type($min_width, $max_width, 20px, 32px);
+    font-size: 1.6rem;
+    margin: 30px 0px 10px 0px;
+    position: relative;
+}
+
+h3 {
+    // @include fluid-type($min_width, $max_width, 19px, 28px);
+    font-size: 1.4rem;
+    margin: 25px 0px 10px 0px;
+    position: relative;
+}
+
+h4 {
+    // @include fluid-type($min_width, $max_width, 18px, 24px);
+    font-size: 1.3rem;
+    margin: 20px 0px 10px 0px;
+    position: relative;
+}
+
+h5 {
+    // @include fluid-type($min_width, $max_width, 17px, 20px);
+    font-size: 1.2rem;
+    margin: 15px 0px 10px 0px;
+    position: relative;
+}
+
+h6 {
+    // @include fluid-type($min_width, $max_width, 16px, 16px);
+    font-size: 1.1rem;
+    margin: 10px 0px 8px 0px;
+    position: relative;
+}
+
+code {
+    font-family: $font-monospace;
+    font-weight: 300;
+    box-decoration-break: clone;
+    padding: 0 3px;
+    word-wrap: break-word;
+    border-left: 1px dotted;
+    border-bottom: 1px dotted;
+    // border-style: solid;
+    // border-width: 1px;
+}
+
+p,
+li,
+ul,
+code {
+    font-size: 1rem;
+    // @include fluid-type($min_width, $max_width, 16px, 25px);
+}
+
+p,
+li,
+ul {
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 500;
+}
+
+a {
+    // @include fluid-type($min_width, $max_width, 12px, 16px); // vela: 16px, 25px
+    font-size: 1rem;
+    text-decoration: none;
+    color: $link-color;
+    transition: all 0.1s ease-in;
+    &:hover {
+        color: $link-hover-color;
+    }
+}
