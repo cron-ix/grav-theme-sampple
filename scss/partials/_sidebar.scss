@@ -48,7 +48,7 @@
             background: $menu-sec-color;
         }
         a[aria-expanded="true"] {
-            background-color: $menu-sec-color-light;
+            background-color: $menu-sec-color-faded;
         }
         a[aria-expanded="true"]:hover,a[aria-expanded="true"]:focus, a[aria-expanded="true"]:active {
             color: $hover-active-font-color;

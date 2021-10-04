@@ -9,7 +9,7 @@ $link-hover-color: darken($link-color, 15%);
 //MENU
 $menu-bg-color: #1f1f1f;
 $menu-sec-color: rgba(29, 131, 179, 0.8);
-$menu-sec-color-faded: transparentize($menu-sec-color, 0.4)
+$menu-sec-color-faded: transparentize($menu-sec-color, 0.4);
 $menu-font-color: #cad4df;
 $hover-active-font-color: #e2e2e2;
 $menu-font: 'Fira Sans Extra Condensed', sans-serif;
@@ -30,7 +30,7 @@ $max_width: 1200px;
 $default-bg-color: rgb(245, 245, 245);
 
 @import "vendor/metismenu";
-@impoer "vendor/nerdfontssymbols";
+@import "vendor/nerdfontssymbols";
 @import "partials/mixins";
 @import "partials/sidebar";
 @import "partials/slideout";
