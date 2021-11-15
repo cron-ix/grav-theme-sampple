@@ -31,6 +31,7 @@ $max_width: 1200px;
 // $default-bg-color: rgb(245, 245, 245);
 $default-bg-color: #222;
 
+@import "partials/_custom";
 @import "vendor/metismenu";
 @import "vendor/nerdfontssymbols";
 @import "partials/mixins";
