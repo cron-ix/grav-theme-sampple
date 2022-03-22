@@ -36,7 +36,7 @@ $max_width: 1200px;
 $default-bg-color: #222;
 
 @import "theme/_custom";
-@import "theme/metismenu";
+@import "vendor/metismenu";
 @import "vendor/nerdfontssymbols";
 @import "theme/mixins";
 @import "theme/sidebar";
