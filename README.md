@@ -2,7 +2,7 @@
 
 ![](assets/screenshot.jpg)
 
-**sampple** is just a sample theme based on and inspired by [Vela](https://github.com/danzinger/grav-theme-vela) and [Learn2](https://github.com/getgrav/grav-theme-learn2)
+**Sampple** is just a sample theme based on and inspired by [Vela](https://github.com/danzinger/grav-theme-vela) and [Learn2](https://github.com/getgrav/grav-theme-learn2)
 
 # Installation
 
