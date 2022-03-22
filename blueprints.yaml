@@ -90,7 +90,7 @@ form:
     sec3:
       type: section
       title: Responsive settings
-      text:  Read the <a href="https://github.com/danzinger/grav-theme-vela">documentation</a> for infomation on these settings.
+      text:  Read the documentation for infomation on these settings.
       underline: true
       fields:
         desktop_mode:
