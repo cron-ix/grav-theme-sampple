@@ -11,9 +11,9 @@ table td, table th {
 table th {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: $font-color;
-    border: 1px solid $default-bg-color;
-    color: $default-bg-color;
+    background-color: $menu-sec-color-faded;
+    border: 1px solid $font-color;
+    color: $font-color;
 }
 
 table tr:nth-child(even) {
