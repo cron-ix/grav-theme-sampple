@@ -15994,7 +15994,7 @@
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
 }
 
 table td, table th {
@@ -16006,6 +16006,7 @@ table th {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #f5f5f5;
+  border: 1px solid #222;
   color: #222;
 }
 
