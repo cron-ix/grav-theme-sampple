@@ -13,8 +13,7 @@ $link-hover-color: darken($link-color, 15%);
 
 //MENU
 $menu-bg-color: #1f1f1f;
-//$menu-sec-color: rgba(29, 131, 179, 0.8);
-$menu-sec-color: rgba(197, 26, 74, 0.8);
+$menu-sec-color: rgba(29, 131, 179, 0.8);
 $menu-sec-color-faded: transparentize($menu-sec-color, 0.4);
 $menu-font-color: #cad4df;
 $hover-active-font-color: #e2e2e2;

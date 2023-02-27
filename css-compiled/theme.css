@@ -45200,7 +45200,7 @@
 }
 .sidebar-nav .metismenu ul > li {
   padding-left: 2px;
-  border-left: 4px solid rgba(197, 26, 74, 0.4);
+  border-left: 4px solid rgba(29, 131, 179, 0.4);
   background: rgba(185, 185, 185, 0.05);
 }
 .sidebar-nav .metismenu ul ul {
@@ -45209,20 +45209,20 @@
 .sidebar-nav .metismenu a:hover, .sidebar-nav .metismenu a:focus, .sidebar-nav .metismenu a:active {
   color: #e2e2e2;
   text-decoration: none;
-  background: rgba(197, 26, 74, 0.8);
+  background: rgba(29, 131, 179, 0.8);
 }
 .sidebar-nav .metismenu a[aria-expanded=true] {
-  background-color: rgba(197, 26, 74, 0.4);
+  background-color: rgba(29, 131, 179, 0.4);
 }
 .sidebar-nav .metismenu a[aria-expanded=true]:hover, .sidebar-nav .metismenu a[aria-expanded=true]:focus, .sidebar-nav .metismenu a[aria-expanded=true]:active {
   color: #e2e2e2;
   text-decoration: none;
-  background: rgba(197, 26, 74, 0.8);
+  background: rgba(29, 131, 179, 0.8);
 }
 .sidebar-nav .metismenu .active-page {
   font-weight: 700;
   color: #e2e2e2;
-  background: rgba(197, 26, 74, 0.8);
+  background: rgba(29, 131, 179, 0.8);
 }
 
 .sidebar-brand {
@@ -45551,14 +45551,14 @@ table {
 }
 
 table td, table th {
-  border: 1px solid rgba(197, 26, 74, 0.4);
+  border: 1px solid rgba(29, 131, 179, 0.4);
   padding: 0.5rem;
 }
 
 table th {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(197, 26, 74, 0.4);
+  background-color: rgba(29, 131, 179, 0.4);
 }
 
 table tr:nth-child(even) {
