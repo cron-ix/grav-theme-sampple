@@ -72,11 +72,11 @@ form:
         menu_color_active:
           type: colorpicker
           label: Choose your active menu item color
-          default: '#1d83b3cc'
+          default: 'rgba(29, 131, 179, 0.80)'
         menu_color_expanded:
           type: colorpicker
           label: Choose your expanded menu color (path to active menu item)
-          default: '#1d83b366'
+          default: 'rgba(29, 131, 179, 0.40)'
     sec2:
       type: section
       title: Markdown Notices Settings
