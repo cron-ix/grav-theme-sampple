@@ -6,14 +6,11 @@
 .notices p {
   padding: 15px;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .notices p::before {
   position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   top: 5.5px;
   content: url(../images/info-circle-solid.svg);
   width: 18px !important;
@@ -21,11 +18,9 @@
   left: 10px;
   font-size: 19px;
 }
-
 .notices p::after {
   position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   top: 4px;
   color: #fff;
   left: 2rem;
@@ -37,11 +32,9 @@
 .notices.yellow {
   background: rgba(239, 171, 76, 0.2);
 }
-
 .notices.yellow p {
   border-top: 30px solid rgba(239, 171, 76, 0.8);
 }
-
 .notices.yellow p::after {
   content: "Info";
 }
@@ -49,11 +42,9 @@
 .notices.red {
   background: rgba(217, 83, 79, 0.2);
 }
-
 .notices.red p {
   border-top: 30px solid rgba(217, 83, 79, 0.8);
 }
-
 .notices.red p::after {
   content: "Warning";
 }
@@ -61,11 +52,9 @@
 .notices.blue {
   background: rgba(106, 176, 222, 0.2);
 }
-
 .notices.blue p {
   border-top: 30px solid rgba(106, 176, 222, 0.8);
 }
-
 .notices.blue p::after {
   content: "Note";
 }
@@ -73,12 +62,9 @@
 .notices.green {
   background: rgba(92, 184, 92, 0.2);
 }
-
 .notices.green p {
   border-top: 30px solid rgba(92, 184, 92, 0.8);
 }
-
 .notices.green p::after {
   content: "Tip";
-}
-/*# sourceMappingURL=markdown-notices.css.map */
+}/*# sourceMappingURL=markdown-notices.css.map */

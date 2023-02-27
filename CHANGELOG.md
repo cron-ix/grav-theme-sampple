@@ -1,3 +1,12 @@
+# 1.0.3
+## 02/27/2023
+
+1.  [](improved)
+     * updated NerdfontsSymbols, see https://www.nerdfonts.com/
+1.  [](fixed)
+     * use math.div for division, see https://sass-lang.com/documentation/breaking-changes/slash-div
+
+
 # v1.0.2
 ## 05/20/2022
 
