@@ -1,9 +1,11 @@
 # 1.0.3
 ## 2023-02-27
 
+1.  [](new)
+     * add two options to select active/hover menu color and expanded menu color
 1.  [](improved)
      * updated NerdfontsSymbols, see https://www.nerdfonts.com/
-1.  [](fixed)
+2.  [](fixed)
      * use math.div for division, see https://sass-lang.com/documentation/breaking-changes/slash-div
 
 
