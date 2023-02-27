@@ -72,10 +72,12 @@ form:
         menu_color_active:
           type: colorpicker
           label: Choose your active menu item color
+          help: i.e. rbga(197, 26, 74, 1.00) for Raspberry red)
           default: 'rgba(29, 131, 179, 0.80)'
         menu_color_expanded:
           type: colorpicker
           label: Choose your expanded menu color (path to active menu item)
+          help: i.e. rbga(197, 26, 74, 1.00) for Raspberry red)
           default: 'rgba(29, 131, 179, 0.40)'
     sec2:
       type: section
