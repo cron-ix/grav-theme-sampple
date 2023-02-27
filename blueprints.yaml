@@ -69,6 +69,10 @@ form:
         hamburger_animation:
           type: text
           label: Specify the hamburger animation. <a href="https://jonsuh.com/hamburgers/">Reference</a>
+        menu_color:
+          type: color-picker
+          label: Choose your menu color
+          default: '#1d83b3cc'
     sec2:
       type: section
       title: Markdown Notices Settings
