@@ -70,7 +70,7 @@ form:
           type: text
           label: Specify the hamburger animation. <a href="https://jonsuh.com/hamburgers/">Reference</a>
         menu_color:
-          type: color-picker
+          type: colorpicker
           label: Choose your menu color
           default: '#1d83b3cc'
     sec2:
