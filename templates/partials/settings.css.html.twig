@@ -34,9 +34,13 @@
     :root {
     {% if config.theme.menu_color_active %}
         --menu-bg-color-active: {{config.theme.menu_color_active}};
+    {% else %}
+        --menu-bg-color-active: rgba(29, 131, 179, 0.80);
     {% endif %}
     {% if config.theme.menu_color_faded %}
             --menu-bg-color-faded: {{config.theme.menu_color_faded}};
+    {% else %}
+            --menu-bg-color-faded: rgba(29, 131, 179, 0.40)
     {% endif %}
     }
 </style>

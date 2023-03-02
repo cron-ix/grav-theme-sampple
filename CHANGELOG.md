@@ -1,3 +1,9 @@
+# 1.0.4
+## 2023-03-02
+
+1.  [](improved)
+     * used css variables for menu background color active and faded
+
 # 1.0.3
 ## 2023-02-27
 
@@ -5,7 +11,7 @@
      * add two options to select active/hover menu color and expanded menu color
 1.  [](improved)
      * updated NerdfontsSymbols, see https://www.nerdfonts.com/
-2.  [](fixed)
+1.  [](fixed)
      * use math.div for division, see https://sass-lang.com/documentation/breaking-changes/slash-div
 
 
