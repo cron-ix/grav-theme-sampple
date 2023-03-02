@@ -31,29 +31,12 @@
             }
         }
     {% endif %}
+    :root {
     {% if config.theme.menu_color_active %}
-        .sidebar-nav .metismenu a:hover, .sidebar-nav .metismenu a:focus, .sidebar-nav .metismenu a:active {
-            background: {{config.theme.menu_color_active}};
-        }
-        .sidebar-nav .metismenu a[aria-expanded=true]:hover, .sidebar-nav .metismenu a[aria-expanded=true]:focus, .sidebar-nav .metismenu a[aria-expanded=true]:active {
-            background: {{config.theme.menu_color_active}};
-        }
-        .sidebar-nav .metismenu .active-page {
-            background: {{config.theme.menu_color_active}};
-        }
+        --menu-bg-color-active: {{config.theme.menu_color_active}};
     {% endif %}
-    {% if config.theme.menu_color_expanded %}
-        .sidebar-nav .metismenu ul > li {
-            border-left: 4px solid {{config.theme.menu_color_expanded}};
-        }
-        .sidebar-nav .metismenu a[aria-expanded=true] {
-            background-color: {{config.theme.menu_color_expanded}};
-        }
-        table td, table th {
-            border: 1px solid {{config.theme.menu_color_expanded}};
-        }
-        table th {
-            background-color: {{config.theme.menu_color_expanded}};
-        }
+    {% if config.theme.menu_color_faded %}
+            --menu-bg-color-faded: {{config.theme.menu_color_faded}};
     {% endif %}
+    }
 </style>

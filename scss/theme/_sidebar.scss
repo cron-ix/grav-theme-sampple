@@ -36,7 +36,7 @@
         }
         ul>li {
             padding-left: 2px;
-            border-left: 4px solid $menu-sec-color-faded;
+            border-left: 4px solid var(--menu-bg-color-faded);
             background: rgba(185, 185, 185, 0.05);
         }
         ul ul {
@@ -45,20 +45,20 @@
         a:hover,a:focus,a:active {
             color: $hover-active-font-color;
             text-decoration: none;
-            background: $menu-sec-color;
+            background: var(--menu-bg-color-active);
         }
         a[aria-expanded="true"] {
-            background-color: $menu-sec-color-faded;
+            background-color: var(--menu-bg-color-faded);
         }
         a[aria-expanded="true"]:hover,a[aria-expanded="true"]:focus, a[aria-expanded="true"]:active {
             color: $hover-active-font-color;
             text-decoration: none;
-            background: $menu-sec-color;
+            background: var(--menu-bg-color-active);
         }
         .active-page {
             font-weight: $menu-font-weight-active;
             color: $hover-active-font-color;
-            background: $menu-sec-color;
+            background: var(--menu-bg-color-active);
         }
     }
 }

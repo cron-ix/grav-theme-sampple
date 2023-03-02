@@ -74,9 +74,9 @@ form:
           label: Choose your active menu item color
           help: i.e. rbga(197, 26, 74, 1.00) for Raspberry red)
           default: 'rgba(29, 131, 179, 0.80)'
-        menu_color_expanded:
+        menu_color_faded:
           type: colorpicker
-          label: Choose your expanded menu color (path to active menu item)
+          label: Choose your faded menu color (path to active menu item)
           help: i.e. rbga(197, 26, 74, 1.00) for Raspberry red)
           default: 'rgba(29, 131, 179, 0.40)'
     sec2:
