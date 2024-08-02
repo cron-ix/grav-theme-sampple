@@ -46261,6 +46261,7 @@ h6 {
 
 code {
   font-family: "Iosevka Web", monospace;
+  font-stretch: expanded;
   font-weight: 300;
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
