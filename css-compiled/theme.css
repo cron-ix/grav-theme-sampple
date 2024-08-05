@@ -45183,7 +45183,7 @@
 }
 
 .sidebar-nav {
-  font-family: "Iosevka Web Condensed", sans-serif;
+  font-family: "novamonoregular", sans-serif;
 }
 .sidebar-nav a,
 .sidebar-nav li,
@@ -45611,7 +45611,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Iosevka Web", sans-serif;
+  font-family: "novamonoregular", sans-serif;
   font-weight: 400;
 }
 
@@ -45652,7 +45652,7 @@ h6 {
 }
 
 code {
-  font-family: "Iosevka Web Expanded", monospace;
+  font-family: "novamonoregular", monospace;
   font-stretch: expanded;
   font-weight: 300;
   -webkit-box-decoration-break: clone;
@@ -45695,7 +45695,7 @@ a:hover {
 
 html,
 body {
-  font-family: "Iosevka Web", sans-serif;
+  font-family: "novamonoregular", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
