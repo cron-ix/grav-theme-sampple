@@ -1,18 +1,27 @@
 // created with https://transfonter.org/
 // source: https://www.nerdfonts.com/font-downloads
 @font-face {
-    font-family: '3270 Nerd Font';
-    src: url('../fonts/3270NF.woff2') format('woff2'),
-        url('../fonts/3270NF.woff') format('woff');
+    font-family: 'IBM 3270';
+    src: url('../fonts/3270-Regular.woff2') format('woff2'),
+        url('../fonts/3270-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: '3270 Nerd Font Cond';
-    src: url('../fonts/3270NF-Cond.woff2') format('woff2'),
-        url('../fonts/3270NF-Cond.woff') format('woff');
+    font-family: 'IBM 3270 Semi-Condensed';
+    src: url('../fonts/3270SemiCondensed.woff2') format('woff2'),
+        url('../fonts/3270SemiCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM 3270 Condensed';
+    src: url('../fonts/3270Condensed.woff2') format('woff2'),
+        url('../fonts/3270Condensed.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

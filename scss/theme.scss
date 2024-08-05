@@ -6,35 +6,30 @@
 // self hosted fonts
 @import "theme/fonts";
 
-// $font-color: #1f1f1f;
+// fonts
+$font-body: 'Iosevka', sans-serif;
+$font-monospace: 'IBM 3270', monospace;
+$font-heading: $font-body;
 $font-color: #f5f5f5;
 $link-color: #2579c7;
 $link-hover-color: darken($link-color, 15%);
 
-// MENU
+// menu style
+$menu-font: 'Iosevka Condensed', sans-serif;
+$menu-font-weight-active: 700;
+$menu-font-weight: 500;
 $menu-bg-color: #1f1f1f;
 $menu-sec-color: rgba(29, 131, 179, 0.8);
 $menu-sec-color-faded: transparentize($menu-sec-color, 0.4);
 $menu-font-color: #cad4df;
 $hover-active-font-color: #e2e2e2;
-// $menu-font: 'Fira Sans Extra Condensed', sans-serif;
-$menu-font: '3270 Nerd Font Cond', sans-serif;
-$menu-font-weight-active: 700;
-$menu-font-weight: 500;
 
-// FONTS
-// $font-body: 'Fira Sans', sans-serif;
-// $font-monospace: 'Fira Code', monospace;
-$font-body: '3270 Nerd Font', sans-serif;
-$font-monospace: '3270 Nerd Font', monospace;
-$font-heading: $font-body;
-
-//Fluid Type
-//Between a viewport width from $min_width to $max_width the font-size is dynamically adjusted
+// Fluid Type
+// Between a viewport width from $min_width to $max_width the font-size is dynamically adjusted
 $min_width: 320px;
 $max_width: 1200px;
 
-//Default template backgroundcolor
+// Default template backgroundcolor
 // $default-bg-color: rgb(245, 245, 245);
 $default-bg-color: #222;
 

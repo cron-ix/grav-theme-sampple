@@ -44955,15 +44955,45 @@
 }
 
 @font-face {
-  font-family: "3270 Nerd Font";
-  src: url("../fonts/3270NF.woff2") format("woff2"), url("../fonts/3270NF.woff") format("woff");
+  font-family: "Iosevka";
+  src: url("../fonts/Iosevka_Latin.woff2") format("woff2"), url("../fonts/Iosevka_Latin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Iosevka Condensed";
+  src: url("../fonts/Iosevka_Latin.woff2") format("woff2"), url("../fonts/Iosevka_Latin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Iosevka Extended";
+  src: url("../fonts/Iosevka-Extended_Latin.woff2") format("woff2"), url("../fonts/Iosevka-Extended_Latin.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "3270 Nerd Font Cond";
-  src: url("../fonts/3270NF-Cond.woff2") format("woff2"), url("../fonts/3270NF-Cond.woff") format("woff");
+  font-family: "IBM 3270";
+  src: url("../fonts/3270-Regular.woff2") format("woff2"), url("../fonts/3270-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM 3270 Semi-Condensed";
+  src: url("../fonts/3270SemiCondensed.woff2") format("woff2"), url("../fonts/3270SemiCondensed.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM 3270 Condensed";
+  src: url("../fonts/3270Condensed.woff2") format("woff2"), url("../fonts/3270Condensed.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -45088,7 +45118,7 @@
 
 
 .sidebar-nav {
-  font-family: "3270 Nerd Font Cond", sans-serif;
+  font-family: "Iosevka Condensed", sans-serif;
 }
 .sidebar-nav a,
 .sidebar-nav li,
@@ -45516,7 +45546,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "3270 Nerd Font", sans-serif;
+  font-family: "Iosevka", sans-serif;
   font-weight: 400;
 }
 
@@ -45557,7 +45587,7 @@ h6 {
 }
 
 code {
-  font-family: "3270 Nerd Font", monospace;
+  font-family: "IBM 3270", monospace;
   font-stretch: expanded;
   font-weight: 300;
   -webkit-box-decoration-break: clone;
@@ -45600,7 +45630,7 @@ a:hover {
 
 html,
 body {
-  font-family: "3270 Nerd Font", sans-serif;
+  font-family: "Iosevka", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
