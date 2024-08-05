@@ -44963,14 +44963,6 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Iosevka Condensed";
-  src: url("../fonts/Iosevka_Latin.woff2") format("woff2"), url("../fonts/Iosevka_Latin.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-@font-face {
   font-family: "Iosevka Extended";
   src: url("../fonts/Iosevka-Extended_Latin.woff2") format("woff2"), url("../fonts/Iosevka-Extended_Latin.woff") format("woff");
   font-weight: normal;
@@ -45118,7 +45110,7 @@
 
 
 .sidebar-nav {
-  font-family: "Iosevka Condensed", sans-serif;
+  font-family: "Iosevka", sans-serif;
 }
 .sidebar-nav a,
 .sidebar-nav li,
