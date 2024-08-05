@@ -1,152 +1,14 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "3270 Nerd Font";
-  src: url("../fonts/3270NF.woff2") format("woff2"), url("../fonts/3270NF.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "3270 Nerd Font Cond";
-  src: url("../fonts/3270NF-Cond.woff2") format("woff2"), url("../fonts/3270NF-Cond.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-/*!
-* metismenu https://github.com/onokumus/metismenu#readme
-* A jQuery menu plugin
-* @version 3.0.4
-* @author Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
-* @license: MIT 
-*/
-.metismenu .arrow {
-  float: right;
-  line-height: 1.42857;
-}
-
-[dir=rtl] .metismenu .arrow {
-  float: left;
-}
-
-.metismenu .glyphicon.arrow:before {
-  content: "\e079";
-}
-
-.metismenu .mm-active > a > .glyphicon.arrow:before {
-  content: "\e114";
-}
-
-.metismenu .fa.arrow:before {
-  content: "\f104";
-}
-
-.metismenu .mm-active > a > .fa.arrow:before {
-  content: "\f107";
-}
-
-.metismenu .ion.arrow:before {
-  content: "\f3d2";
-}
-
-.metismenu .mm-active > a > .ion.arrow:before {
-  content: "\f3d0";
-}
-
-.metismenu .plus-times {
-  float: right;
-}
-
-[dir=rtl] .metismenu .plus-times {
-  float: left;
-}
-
-.metismenu .fa.plus-times:before {
-  content: "\f067";
-}
-
-.metismenu .mm-active > a > .fa.plus-times {
-  transform: rotate(45deg);
-}
-
-.metismenu .plus-minus {
-  float: right;
-}
-
-[dir=rtl] .metismenu .plus-minus {
-  float: left;
-}
-
-.metismenu .fa.plus-minus:before {
-  content: "\f067";
-}
-
-.metismenu .mm-active > a > .fa.plus-minus:before {
-  content: "\f068";
-}
-
-.metismenu .mm-collapse:not(.mm-show) {
-  display: none;
-}
-
-.metismenu .mm-collapsing {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  transition-timing-function: ease;
-  transition-duration: 0.35s;
-  transition-property: height, visibility;
-}
-
-.metismenu .has-arrow {
-  position: relative;
-}
-
-.metismenu .has-arrow:after {
-  position: absolute;
-  content: "";
-  width: 0.5em;
-  height: 0.5em;
-  border-style: solid;
-  border-width: 1px 0 0 1px;
-  border-color: initial;
-  right: 1em;
-  transform: rotate(-45deg) translateY(-50%);
-  transform-origin: top;
-  top: 50%;
-  transition: all 0.3s ease-out;
-}
-
-[dir=rtl] .metismenu .has-arrow:after {
-  right: auto;
-  left: 1em;
-  transform: rotate(135deg) translateY(-50%);
-}
-
-.metismenu .has-arrow[aria-expanded=true]:after, .metismenu .mm-active > .has-arrow:after {
-  transform: rotate(-135deg) translateY(-50%);
-}
-
-[dir=rtl] .metismenu .has-arrow[aria-expanded=true]:after, [dir=rtl] .metismenu .mm-active > .has-arrow:after {
-  transform: rotate(225deg) translateY(-50%);
-}
-
-
-/*!
-    NerdFontsSymbols Nerd Font 2023-02-27
- */
-@font-face {
   font-family: "NerdFontsSymbols Nerd Font";
   font-weight: 400;
   font-style: normal;
-  /* src: url("https://www.nerdfonts.com/assets/fonts/Symbols-2048-em%20Nerd%20Font%20Complete.woff2") format("woff2"); */
   src: local(""), url("../fonts/Symbols-2048-em-Nerd-Font-Complete.woff2") format("woff2");
 }
 .nf,
 .nerd-font,
 .nerd-fonts {
   font-family: "NerdFontsSymbols Nerd Font";
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -45091,6 +44953,139 @@
 .nf-weather-windy:before {
   content: "\e31e";
 }
+
+@font-face {
+  font-family: "3270 Nerd Font";
+  src: url("../fonts/3270NF.woff2") format("woff2"), url("../fonts/3270NF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "3270 Nerd Font Cond";
+  src: url("../fonts/3270NF-Cond.woff2") format("woff2"), url("../fonts/3270NF-Cond.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*!
+* metismenu https://github.com/onokumus/metismenu#readme
+* A jQuery menu plugin
+* @version 3.0.4
+* @author Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
+* @license: MIT 
+*/
+.metismenu .arrow {
+  float: right;
+  line-height: 1.42857;
+}
+
+[dir=rtl] .metismenu .arrow {
+  float: left;
+}
+
+.metismenu .glyphicon.arrow:before {
+  content: "\e079";
+}
+
+.metismenu .mm-active > a > .glyphicon.arrow:before {
+  content: "\e114";
+}
+
+.metismenu .fa.arrow:before {
+  content: "\f104";
+}
+
+.metismenu .mm-active > a > .fa.arrow:before {
+  content: "\f107";
+}
+
+.metismenu .ion.arrow:before {
+  content: "\f3d2";
+}
+
+.metismenu .mm-active > a > .ion.arrow:before {
+  content: "\f3d0";
+}
+
+.metismenu .plus-times {
+  float: right;
+}
+
+[dir=rtl] .metismenu .plus-times {
+  float: left;
+}
+
+.metismenu .fa.plus-times:before {
+  content: "\f067";
+}
+
+.metismenu .mm-active > a > .fa.plus-times {
+  transform: rotate(45deg);
+}
+
+.metismenu .plus-minus {
+  float: right;
+}
+
+[dir=rtl] .metismenu .plus-minus {
+  float: left;
+}
+
+.metismenu .fa.plus-minus:before {
+  content: "\f067";
+}
+
+.metismenu .mm-active > a > .fa.plus-minus:before {
+  content: "\f068";
+}
+
+.metismenu .mm-collapse:not(.mm-show) {
+  display: none;
+}
+
+.metismenu .mm-collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-timing-function: ease;
+  transition-duration: 0.35s;
+  transition-property: height, visibility;
+}
+
+.metismenu .has-arrow {
+  position: relative;
+}
+
+.metismenu .has-arrow:after {
+  position: absolute;
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  border-color: initial;
+  right: 1em;
+  transform: rotate(-45deg) translateY(-50%);
+  transform-origin: top;
+  top: 50%;
+  transition: all 0.3s ease-out;
+}
+
+[dir=rtl] .metismenu .has-arrow:after {
+  right: auto;
+  left: 1em;
+  transform: rotate(135deg) translateY(-50%);
+}
+
+.metismenu .has-arrow[aria-expanded=true]:after, .metismenu .mm-active > .has-arrow:after {
+  transform: rotate(-135deg) translateY(-50%);
+}
+
+[dir=rtl] .metismenu .has-arrow[aria-expanded=true]:after, [dir=rtl] .metismenu .mm-active > .has-arrow:after {
+  transform: rotate(225deg) translateY(-50%);
+}
+
 
 .sidebar-nav {
   font-family: "3270 Nerd Font Cond", sans-serif;
