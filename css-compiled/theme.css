@@ -1,107 +1,17 @@
 @charset "UTF-8";
-/* Iosevka Web font-weight: 400 (-Regular) */
 @font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  src: url("../fonts/Iosevka-Regular.woff2") format("woff2"), url("../fonts/Iosevka-Regular.ttf") format("truetype");
-}
-/* Iosevka Web Condensed font-weight: 400 (-Regular) */
-@font-face {
-  font-family: "Iosevka Web Condensed";
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: condensed;
-  font-style: normal;
-  src: url("../fonts/Iosevka-Regular.woff2") format("woff2"), url("../fonts/Iosevka-Regular.ttf") format("truetype");
-}
-/* Iosevka Web Expanded font-weight: 400 (-Regular) */
-@font-face {
-  font-family: "Iosevka Web Expanded";
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: expanded;
-  font-style: normal;
-  src: url("../fonts/Iosevka-Regular.woff2") format("woff2"), url("../fonts/Iosevka-Regular.ttf") format("truetype");
-}
-/* NovaMono Regular */
-@font-face {
-  font-family: "novamonoregular";
-  src: url("../fonts/novamono-regular-webfont.woff2") format("woff2"), url("../fonts/novamono-regular-webfont.woff") format("woff");
+  font-family: "3270 Nerd Font";
+  src: url("fonts/3270NF.woff2") format("woff2"), url("fonts/3270NF.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
-/* fira-code-300 - latin */
 @font-face {
-  font-family: "Fira Code";
+  font-family: "3270 Nerd Font Cond";
+  src: url("fonts/3270NF-Cond.woff2") format("woff2"), url("fonts/3270NF-Cond.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 300;
-  src: local(""), url("../fonts/fira-code-v17-latin-300.woff2") format("woff2"), url("../fonts/fira-code-v17-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-code-regular - latin */
-@font-face {
-  font-family: "Fira Code";
-  font-style: normal;
-  font-weight: 400;
-  src: local(""), url("../fonts/fira-code-v17-latin-regular.woff2") format("woff2"), url("../fonts/fira-code-v17-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-code-700 - latin */
-@font-face {
-  font-family: "Fira Code";
-  font-style: normal;
-  font-weight: 700;
-  src: local(""), url("../fonts/fira-code-v17-latin-700.woff2") format("woff2"), url("../fonts/fira-code-v17-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-sans-extra-condensed-300 - latin */
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  font-style: normal;
-  font-weight: 300;
-  src: local(""), url("../fonts/fira-sans-extra-condensed-v8-latin-300.woff2") format("woff2"), url("../fonts/fira-sans-extra-condensed-v8-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-sans-extra-condensed-regular - latin */
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  font-style: normal;
-  font-weight: 400;
-  src: local(""), url("../fonts/fira-sans-extra-condensed-v8-latin-regular.woff2") format("woff2"), url("../fonts/fira-sans-extra-condensed-v8-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-sans-extra-condensed-500 - latin */
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  font-style: normal;
-  font-weight: 500;
-  src: local(""), url("../fonts/fira-sans-extra-condensed-v8-latin-500.woff2") format("woff2"), url("../fonts/fira-sans-extra-condensed-v8-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-sans-extra-condensed-700 - latin */
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  font-style: normal;
-  font-weight: 700;
-  src: local(""), url("../fonts/fira-sans-extra-condensed-v8-latin-700.woff2") format("woff2"), url("../fonts/fira-sans-extra-condensed-v8-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-sans-300 - latin */
-@font-face {
-  font-family: "Fira Sans";
-  font-style: normal;
-  font-weight: 300;
-  src: local(""), url("../fonts/fira-sans-v15-latin-300.woff2") format("woff2"), url("../fonts/fira-sans-v15-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-sans-regular - latin */
-@font-face {
-  font-family: "Fira Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local(""), url("../fonts/fira-sans-v15-latin-regular.woff2") format("woff2"), url("../fonts/fira-sans-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* fira-sans-700 - latin */
-@font-face {
-  font-family: "Fira Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local(""), url("../fonts/fira-sans-v15-latin-700.woff2") format("woff2"), url("../fonts/fira-sans-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 /*!
 * metismenu https://github.com/onokumus/metismenu#readme
@@ -45183,7 +45093,7 @@
 }
 
 .sidebar-nav {
-  font-family: "novamonoregular", sans-serif;
+  font-family: "3270 Nerd Font Cond", sans-serif;
 }
 .sidebar-nav a,
 .sidebar-nav li,
@@ -45611,7 +45521,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "novamonoregular", sans-serif;
+  font-family: "3270 Nerd Font", sans-serif;
   font-weight: 400;
 }
 
@@ -45652,7 +45562,7 @@ h6 {
 }
 
 code {
-  font-family: "novamonoregular", monospace;
+  font-family: "3270 Nerd Font", monospace;
   font-stretch: expanded;
   font-weight: 300;
   -webkit-box-decoration-break: clone;
@@ -45695,7 +45605,7 @@ a:hover {
 
 html,
 body {
-  font-family: "novamonoregular", sans-serif;
+  font-family: "3270 Nerd Font", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
