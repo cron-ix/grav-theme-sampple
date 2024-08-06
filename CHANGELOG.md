@@ -1,18 +1,29 @@
 # Changelog
 
+## 1.0.6
+
+### 2024-08-06
+
+1. [](new)
+     * theme option for link color and link hover color added
+2. [](improved)
+     * content and menu font: Iosevka
+     * heading font: Iosevka Extended
+     * monospace font: IBM 3270
+
 ## 1.0.5
 
 ### 2024-08-02
 
 1. [](new)
-     * added font "Iosevka Web"
+     * added font "Iosevka"
 
 ## 1.0.4
 
 ### 2023-03-02
 
 1. [](improved)
-     * used css variables for menu background color active and faded
+     * css variables for menu background color active and faded
 
 ## 1.0.3
 
