@@ -79,6 +79,11 @@ form:
           label: Choose your faded menu color (path to active menu item)
           help: i.e. rbga(197, 26, 74, 1.00) for Raspberry red)
           default: 'rgba(29, 131, 179, 0.40)'
+        content_link_color:
+          type: colorpicker
+          label: Choose color for links in content
+          help: i.e. rgba(240, 128, 128, 1.0) for LightCoral)
+          default: 'rgba(135, 206, 250, 1.0)'
     sec2:
       type: section
       title: Markdown Notices Settings

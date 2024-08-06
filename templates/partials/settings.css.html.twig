@@ -32,6 +32,12 @@
         }
     {% endif %}
     :root {
+    {% if config.theme.content_link_color %}
+        --link-color: {{config.theme.content_link_color}};
+    {% else %}
+        --link-color: rgba(135, 206, 250, 1.0);
+    {% endif %}
+
     {% if config.theme.menu_color_active %}
         --menu-bg-color-active: {{config.theme.menu_color_active}};
     {% else %}
