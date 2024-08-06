@@ -84,6 +84,11 @@ form:
           label: Choose color for links in content
           help: i.e. rgba(240, 128, 128, 1.0) for LightCoral)
           default: 'rgba(135, 206, 250, 1.0)'
+        content_link_color_hover:
+          type: colorpicker
+          label: Choose hover color for links in content
+          help: i.e. rgba(244, 160, 160, 1.0) for LightCoral lightend by 25%)
+          default: 'rgba(165, 218, 251, 1.0)'
     sec2:
       type: section
       title: Markdown Notices Settings

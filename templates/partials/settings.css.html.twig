@@ -37,6 +37,11 @@
     {% else %}
         --link-color: rgba(135, 206, 250, 1.0);
     {% endif %}
+    {% if config.theme.content_link_color_hover %}
+        --link-color-hover: {{config.theme.content_link_color_hover}};
+    {% else %}
+        --link-color-hover: rgba(165, 218, 251, 1.0);
+    {% endif %}
 
     {% if config.theme.menu_color_active %}
         --menu-bg-color-active: {{config.theme.menu_color_active}};
