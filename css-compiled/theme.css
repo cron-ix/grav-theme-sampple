@@ -45613,11 +45613,11 @@ a {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  color: lightsteelblue;
+  color: lightskyblue;
   transition: all 0.1s ease-in;
 }
 a:hover {
-  color: #7a9cc7;
+  color: #3eb0f7;
 }
 
 html,
