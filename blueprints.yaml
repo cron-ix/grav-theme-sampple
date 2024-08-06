@@ -87,7 +87,7 @@ form:
         content_link_color_hover:
           type: colorpicker
           label: Choose hover color for links in content
-          help: i.e. rgba(244, 160, 160, 1.0) for LightCoral lightend by 25%); defaults to rgba(195, 230, 252, 1.0)
+          help: i.e. rgba(247, 191, 191, 1.0) for LightCoral lightend by 50%); defaults to rgba(195, 230, 252, 1.0)
           default: 'rgba(195, 230, 252, 1.0)'
     sec2:
       type: section
