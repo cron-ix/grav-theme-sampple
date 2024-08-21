@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
     font-family: $font-heading;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 h1 {
@@ -92,7 +92,7 @@ strong {
 a {
     // @include fluid-type($min_width, $max_width, 12px, 16px); // vela: 16px, 25px
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     // color: $link-color;
     color: var(--link-color);
